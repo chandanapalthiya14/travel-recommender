@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Destination Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>&#127760; Explore the World - Tourist Destination Recommender</h1>
+        <p>Find your perfect getaway based on country, activity, and preferences</p>
+    </header>
+
+    <section class="form-section">
+        <form id="recommender-form">
+            <select id="country" name="country">
+                <option value="">Select Country</option>
+            </select>
+            <select id="category" name="category">
+                <option value="">Select Category</option>
+            </select>
+            <select id="rating" name="rating">
+                <option value="">Select Min Rating</option>
+            </select>
+            <select id="accommodation" name="accommodation">
+                <option value="">Accommodation?</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <input type="text" id="keyword" name="keyword" placeholder="Search keywords…">
+            <button type="submit">&#128269; Recommend</button>
+        </form>
+    </section>
+
+    <section class="results" id="results">
+        <h2>&#127775; Recommended Destinations</h2>
+        <div class="destinations" id="destination-cards"></div>
+    </section>
+
+    <section class="gallery">
+        <h2>&#127957;&#65039; Gallery of Top Tourist Spots</h2>
+        <div class="image-gallery">
+            <img src="paris.jpg" alt="Paris" class="gallery-image">
+            <img src="tajmahal.jpg" alt="Taj Mahal" class="gallery-image">
+            <img src="great wall.jpg" alt="Great Wall" class="gallery-image">
+            <img src="machu-picchu.jpg" alt="Machu Picchu" class="gallery-image">
+            <img src="sidney.jpg" alt="Sydney" class="gallery-image">
+            <img src="santorini.jpg" alt="Santorini" class="gallery-image">
+        </div>
+    </section>
+
+    <section class="why-travel">
+        <h2>&#9992;&#65039; Why Travel?</h2>
+        <p>Discover new cultures, experience breathtaking views, and create unforgettable memories across the globe.</p>
+    </section>
+
+    <section class="testimonials">
+        <h2>&#128172; What People Are Saying</h2>
+        <div class="testimonial-box">
+            <p>"&#128525; Absolutely amazing! Found hidden gems I never imagined."</p>
+            <span>- Priya, India</span>
+        </div>
+        <div class="testimonial-box">
+            <p>"&#10024; The recommendations were spot on. I had the best vacation ever!"</p>
+            <span>- Carlos, Brazil</span>
+        </div>
+    </section>
+
+    <section class="tips">
+        <h2>&#128205; Travel Tips</h2>
+        <ul>
+            <li>&#127760; Always check local travel guidelines</li>
+            <li>&#129505; Carry travel insurance</li>
+            <li>&#127787;&#65039; Learn a few phrases in the local language</li>
+            <li>&#128682; Be respectful of local customs and culture</li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <h2>&#10067; Frequently Asked Questions</h2>
+        <div>
+            <strong>How do I use the recommender?</strong>
+            <p>Select your preferences in the form and click Recommend.</p>
+        </div>
+        <div>
+            <strong>Is this free to use?</strong>
+            <p>Yes, it's a free tool to help you explore the world better!</p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>&#128231; Subscribe to Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">&#128233; Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Explore World. Designed for Tourism Projects. Built with &#10084;&#65039; using Flask & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
